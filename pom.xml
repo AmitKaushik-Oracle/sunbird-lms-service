@@ -39,7 +39,6 @@
                     <argLine>
                         @{argLine} --illegal-access=permit -Xmx2048m
                     </argLine>
-                    <forkCount>0</forkCount>
                     <properties>
                         <property>
                             <name>parallel</name>
