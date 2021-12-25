@@ -35,15 +35,17 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <forkCount>0</forkCount>
+                    <forkCount>2</forkCount>
+                    <threadCount>2</threadCount>
                     <argLine>
-                        @{argLine} --illegal-access=permit -Xmx8192m 
+                        @{argLine} --illegal-access=permit -Xmx4096m 
                     </argLine>
                     <properties>
                         <property>
                             <name>parallel</name>
                             <value>methods</value>
                         </property>
+
                         <property>
                             <name>dataproviderthreadcount</name>
                             <value>30</value>
