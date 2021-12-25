@@ -35,10 +35,10 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <forkCount>2</forkCount>
-                    <threadCount>3</threadCount>
+                    <forkCount>0</forkCount>
+                    <threadCount>1</threadCount>
                     <argLine>
-                        @{argLine} --illegal-access=permit -Xmx4096m 
+                        @{argLine} --illegal-access=permit -Xmx16384m 
                     </argLine>
                     <properties>
                         <property>
@@ -48,7 +48,7 @@
 
                         <property>
                             <name>dataproviderthreadcount</name>
-                            <value>10</value>
+                            <value>30</value>
                         </property>
                     </properties>
                 </configuration>
