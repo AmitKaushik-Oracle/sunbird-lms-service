@@ -36,9 +36,8 @@
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <forkCount>0</forkCount>
-                    <threadCount>1</threadCount>
                     <argLine>
-                        @{argLine} --illegal-access=permit -Xmx16384m 
+                        @{argLine} --illegal-access=permit 
                     </argLine>
                     <properties>
                         <property>
