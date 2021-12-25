@@ -37,7 +37,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <forkCount>3</forkCount>
                     <argLine>
-                        @{argLine} --illegal-access=permit -Xmx4096m 
+                        @{argLine} --illegal-access=permit -Xmx6144m 
                     </argLine>
                     <properties>
                         <property>
