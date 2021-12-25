@@ -36,7 +36,7 @@
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <forkCount>2</forkCount>
-                    <threadCount>2</threadCount>
+                    <threadCount>3</threadCount>
                     <argLine>
                         @{argLine} --illegal-access=permit -Xmx4096m 
                     </argLine>
@@ -48,7 +48,7 @@
 
                         <property>
                             <name>dataproviderthreadcount</name>
-                            <value>30</value>
+                            <value>10</value>
                         </property>
                     </properties>
                 </configuration>
