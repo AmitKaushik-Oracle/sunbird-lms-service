@@ -35,10 +35,9 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <forkCount>2</forkCount>
-                    <threadCount>2</threadCount>
+                    <forkCount>0</forkCount>
                     <argLine>
-                        @{argLine} --illegal-access=permit -Xmx4096m
+                        @{argLine} --illegal-access=permit -Xmx2048m
                     </argLine>
                     <properties>
                         <property>
