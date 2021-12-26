@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 import modules.OnRequestHandler;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -29,7 +28,6 @@ import util.ACTORS;
 @RunWith(PowerMockRunner.class)
 @PowerMockIgnore({"javax.management.*", "jdk.internal.reflect.*", "javax.crypto.*"})
 @PrepareForTest({OnRequestHandler.class, FeedRequestValidator.class})
-@Ignore
 public class FeedControllerTest extends BaseApplicationTest {
 
   String SAVE_FEED_URL = "/v1/user/feed/create";
