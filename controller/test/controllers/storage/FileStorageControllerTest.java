@@ -12,6 +12,7 @@ import modules.OnRequestHandler;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 import org.mockito.Mockito;
@@ -33,6 +34,7 @@ import util.RequestInterceptor;
 @RunWith(PowerMockRunner.class)
 @PowerMockIgnore({"javax.management.*", "jdk.internal.reflect.*", "javax.crypto.*"})
 @PrepareForTest(OnRequestHandler.class)
+@Ignore
 public class FileStorageControllerTest extends BaseApplicationTest {
 
   private static Map<String, String[]> headerMap;
